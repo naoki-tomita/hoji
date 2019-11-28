@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const BDD_1 = require("./BDD");
+exports.describe = BDD_1.describe;
+exports.it = BDD_1.it;
+exports.after = BDD_1.after;
+exports.before = BDD_1.before;
+global.describe = BDD_1.describe;
+global.it = BDD_1.it;
+global.after = BDD_1.after;
+global.before = BDD_1.before;
